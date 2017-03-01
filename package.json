@@ -2,13 +2,9 @@
   "name": "opendatalayer-model-default",
   "version": "0.0.1",
   "description": "Default model for the OpenDatalayer - contains type descriptions and mappings",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.gkh-setu.de/bsna/opendatalayer-model-default"
+    "url": "https://github.com/ryx/opendatalayer-model-default"
   },
   "keywords": [
     "opendatalayer",
