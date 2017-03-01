@@ -14,7 +14,7 @@ E.g. this model is designed for e-commerce-driven websites (as ODL is originally
 an e-commerce website) and contains a lot of product- and order-specific types. However, due to the
 modular concept it is easily possible to use ODL for any other website by simply using another model.
 
-## What are "types" and which "types" exist in this model?
+## What are "types"?
 Because of the non-statically-typed nature of Javascript and JSON the ODL implements several virtual data
 types used as a "contract" between any embedding applications and the ODL. The contained information is
 based on context (e.g. page, user, search, ...) and not on any business domain.
@@ -24,7 +24,7 @@ this allows for machine processing and automation of validation processes. The f
 located under the `model` directory in this repository. Please point any external links to type definitions
 to the respective file in that repository.
 
-### Available data types
+## Which "types" exist in this model?
 * [model/ODLGlobalData.avdl](model/ODLGlobalData.avdl)
 * [model/ODLSiteData.avdl](model/ODLSiteData.avdl)
 * [model/ODLPageData.avdl](model/ODLPageData.avdl)
