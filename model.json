@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "_": [
+      "ODLGlobalData"
+    ],
+    "homepage": {
+      "pattern": "/^\/$/g"
+    },
+    "search": {
+      "pattern": "/^\/search\//g",
+      "types": ["ODLSearchData"]
+    },
+    "category": {
+      "pattern": "/^\/search/g",
+      "types": ["ODLSearchData"]
+    },
+    "productdetail": {
+      "pattern": "/^\/p\//g",
+      "types": ["ODLProductData", "ODLNavigationData"]
+    },
+    "checkout-cart": {
+      "pattern": "/^\/bestellvorgang\//g",
+      "types": ["ODLCartData"]
+    },
+    "checkout-confirmation": {
+      "pattern": "/^\/bestellvorgang/bestaetigung\//g",
+      "types": ["ODLOrderData"]
+    }
+  },
+  "events": {
+
+  }
+}
