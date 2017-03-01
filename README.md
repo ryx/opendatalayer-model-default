@@ -10,9 +10,11 @@ A website that implements the ODL has to obey one specific model (either this de
 the ODL and its tools (e.g. Builder and Validator) know where to expect which kind of data. Think of the model as
 a contract between a website and the ODL.
 
-E.g. this model is designed for e-commerce-driven websites (as ODL is originally built and developed within
-an e-commerce website) and contains a lot of product- and order-specific types. However, due to the
-modular concept it is easily possible to use ODL for any other website by simply using another model.
+These mappings heavily depend on the type of website the model is designed for. This model for example is designed
+for e-commerce-driven websites (as ODL is originally built and developed within an e-commerce website) and
+contains a lot of product- and order-specific types. However, due to the modular concept it is easily
+possible to use ODL for any other website by simply using another model. E.g. a model for a blog might provide
+types more focused on articles, archive pages, tag lists and alike and omit all the checkout and order stuff.
 
 ## What are "types"?
 Because of the non-statically-typed nature of Javascript and JSON the ODL implements several virtual data
