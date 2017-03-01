@@ -1,28 +1,34 @@
 {
-  "pages": {
+  "pagetype": {
     "_": [
       "ODLGlobalData"
     ],
     "homepage": {
+      "id": "homepage",
       "pattern": "/^\/$/g"
     },
-    "search": {
+    "searchResult": {
+      "id": "search",
       "pattern": "/^\/search\//g",
       "types": ["ODLSearchData"]
     },
     "category": {
+      "id": "category",
       "pattern": "/^\/search/g",
       "types": ["ODLSearchData"]
     },
-    "productdetail": {
+    "productDetail": {
+      "id": "productdetail",
       "pattern": "/^\/p\//g",
       "types": ["ODLProductData", "ODLNavigationData"]
     },
-    "checkout-cart": {
+    "checkoutCart": {
+      "id": "checkout-cart",
       "pattern": "/^\/bestellvorgang\//g",
       "types": ["ODLCartData"]
     },
-    "checkout-confirmation": {
+    "checkoutComplete": {
+      "id": "checkout-confirmation",
       "pattern": "/^\/bestellvorgang/bestaetigung\//g",
       "types": ["ODLOrderData"]
     }
